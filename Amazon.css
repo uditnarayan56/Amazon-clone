@@ -1,7 +1,6 @@
 * {
-    margin: 0;
+    margin: 0px;
     font-family: Arial;
-    border: border-box;
 }
 
 .nav-logo {
@@ -11,11 +10,12 @@
 
 .navbar {
     height: 60px;
-    background-color: #0f1111;
+    background-color: rgb(15, 17, 17);
     color: white;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    cursor: pointer;
 }
 
 .logo {
@@ -33,9 +33,8 @@
     border: 1.5px solid white;
 }
 
-/** box2 **/
 .add-first {
-    color: #cccccc;
+    color: rgb(204, 204, 204);
     font-size: 0.85rem;
     margin-left: 15px;
 }
@@ -50,8 +49,6 @@
     align-items: center;
 }
 
-/** box3 **/
-
 .nav-search {
     display: flex;
     justify-content: space-evenly;
@@ -62,7 +59,7 @@
 }
 
 .search-select {
-    background-color: #f3f3f3;
+    background-color: rgb(243, 243, 243);
     width: max-content;
     text-align: center;
     border-top-left-radius: 4px;
@@ -85,17 +82,15 @@
     background-color: rgb(229, 147, 32);
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
-    color: #0f1111
+    color: rgb(15, 17, 17);
 }
 
 .nav-search:hover {
     border: 2px solid orange;
 }
 
-/** box4 **/
 span {
     font-size: 0.7rem;
-
 }
 
 .nav-second {
@@ -103,7 +98,6 @@ span {
     font-weight: 700;
 }
 
-/** box6 **/
 .nav-cart i {
     font-size: 30px;
 }
@@ -113,12 +107,11 @@ span {
     font-weight: 700;
 }
 
-/** panel **/
 .panel {
     height: 40px;
-    background-color: #222f3d;
+    background-color: rgb(34, 47, 61);
     display: flex;
-    color: white;
+    color: gold;
     align-items: center;
     justify-content: space-evenly;
 }
@@ -126,6 +119,7 @@ span {
 .panel-ops p {
     display: inline;
     margin-left: 15px;
+    color: red;
 }
 
 .panel-ops {
@@ -138,9 +132,8 @@ span {
     font-weight: 700;
 }
 
-/** hero section **/
 .hero-section {
-    background-image: url(./res/hero_image.jpg);
+    background-image: url("./res/hero_image.jpg");
     background-size: cover;
     height: 350px;
     display: flex;
@@ -161,25 +154,19 @@ span {
 }
 
 .hero-msg a {
-    color: #007185;
+    color: rgb(0, 113, 133);
+    cursor: pointer;
 }
 
-.hero-msg p {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    unicode-bidi: isolate;
-
+.hero-msg a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
-/** shop section **/
 .shop-section {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    background-color: #e2e7e6;
+    background-color: rgb(226, 231, 230);
 }
 
 .box {
@@ -204,17 +191,16 @@ span {
 }
 
 .box-content p {
-    color: #007185;
+    color: rgb(0, 113, 133);
+    cursor: pointer;
 }
-
-/** footer **/
 
 .footer {
     margin-top: 15px;
 }
 
 .foot-panel1 {
-    background-color: #37475a;
+    background-color: rgb(55, 71, 90);
     color: white;
     height: 50px;
     display: flex;
@@ -224,7 +210,7 @@ span {
 }
 
 .foot-panel2 {
-    background-color: #222f3d;
+    background-color: rgb(34, 47, 61);
     color: white;
     height: 300px;
     display: flex;
@@ -239,12 +225,12 @@ ul a {
     display: block;
     font-size: 0.75rem;
     margin-top: 10px;
-    color: #dddddd;
+    color: rgb(221, 221, 221);
     margin-bottom: 10px;
 }
 
 .foot-panel3 {
-    background-color: #222f3d;
+    background-color: rgb(34, 47, 61);
     color: white;
     border-top: 2px solid white;
     height: 60px;
@@ -261,7 +247,7 @@ ul a {
 }
 
 .foot-panel4 {
-    background-color: #0f1111;
+    background-color: rgb(15, 17, 17);
     color: white;
     height: 80px;
     font-size: 0.7rem;
@@ -287,27 +273,26 @@ ul a {
 }
 
 .action-inner {
+    padding: 1px 110px;
+    margin: 20px;
+    border-radius: 10px;
     display: inline-block;
+    border: 1px solid rgb(133, 89, 6);
     color: black;
     font-size: 1.5em;
     background-color: rgb(237, 155, 21);
     cursor: pointer;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 3px;
-    padding: 1px 110px;
-    margin: 20px;
-    border-radius: 10px;
-    border-width: 1px;
-    border-style: solid;
-    border-color: rgb(133, 89, 6);
-    border-image: initial;
 }
 
+.action-inner:hover {
+    background: rgba(133, 89, 6, 0.5);
+}
 
-.panel {
-    height: 40px;
-    background-color: rgb(34, 47, 61);
-    display: flex;
-    color: gold;
-    align-items: center;
-    justify-content: space-evenly;
+.rhf-tooltip>a {
+    color: blue;
+}
+
+.rhf-tooltip>a:hover {
+    background-color: rgba(247, 170, 28, 0.5);
 }
