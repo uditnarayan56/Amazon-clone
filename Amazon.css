@@ -1,15 +1,15 @@
-*{
+* {
     margin: 0;
     font-family: Arial;
     border: border-box;
 }
 
-.nav-logo{
+.nav-logo {
     height: 50px;
-    width: 100px; 
+    width: 100px;
 }
 
-.navbar{
+.navbar {
     height: 60px;
     background-color: #0f1111;
     color: white;
@@ -17,20 +17,22 @@
     align-items: center;
     justify-content: space-evenly;
 }
-.logo{
+
+.logo {
     background-image: url("res/amazon_logo.png");
     background-size: cover;
     height: 50px;
     width: 100%;
 }
 
-.border{
+.border {
     border: 1.5px solid transparent;
 }
 
-.border:hover{
+.border:hover {
     border: 1.5px solid white;
 }
+
 /** box2 **/
 .add-first {
     color: #cccccc;
@@ -42,6 +44,7 @@
     font-size: 1rem;
     margin-left: 3px;
 }
+
 .add-icon {
     display: flex;
     align-items: center;
@@ -82,8 +85,9 @@
     background-color: rgb(229, 147, 32);
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
-    color:#0f1111
+    color: #0f1111
 }
+
 .nav-search:hover {
     border: 2px solid orange;
 }
@@ -100,16 +104,17 @@ span {
 }
 
 /** box6 **/
-.nav-cart i{
+.nav-cart i {
     font-size: 30px;
 }
-.nav-cart{
+
+.nav-cart {
     font-size: 0.85rem;
     font-weight: 700;
 }
 
 /** panel **/
-.panel{
+.panel {
     height: 40px;
     background-color: #222f3d;
     display: flex;
@@ -118,21 +123,23 @@ span {
     justify-content: space-evenly;
 }
 
-.panel-ops p{
+.panel-ops p {
     display: inline;
     margin-left: 15px;
 }
-.panel-ops{
+
+.panel-ops {
     width: 70%;
     font-size: 0.85rem;
 }
 
-.panel-deals{
+.panel-deals {
     font-size: 0.9rem;
     font-weight: 700;
 }
+
 /** hero section **/
-.hero-section{
+.hero-section {
     background-image: url(./res/hero_image.jpg);
     background-size: cover;
     height: 350px;
@@ -140,8 +147,9 @@ span {
     justify-content: center;
     align-items: flex-end;
 }
-.hero-msg{
-    background-color: white;
+
+.hero-msg {
+    background-color: gold;
     color: black;
     height: 40px;
     display: flex;
@@ -151,18 +159,30 @@ span {
     width: 80%;
     margin-bottom: 25px;
 }
-.hero-msg a{
+
+.hero-msg a {
     color: #007185;
 }
+
+.hero-msg p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+
+}
+
 /** shop section **/
-.shop-section{
+.shop-section {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     background-color: #e2e7e6;
 }
 
-.box{
+.box {
     border: 2px solid black;
     height: 400px;
     width: 23%;
@@ -171,28 +191,29 @@ span {
     margin-top: 15px;
 }
 
-.box-img{
+.box-img {
     height: 300px;
     background-size: cover;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
-.box-content{
+.box-content {
     margin-left: 10px;
     margin-right: 10px;
 }
 
-.box-content p{
+.box-content p {
     color: #007185;
 }
+
 /** footer **/
 
-.footer{
+.footer {
     margin-top: 15px;
 }
 
-.foot-panel1{
+.foot-panel1 {
     background-color: #37475a;
     color: white;
     height: 50px;
@@ -201,7 +222,8 @@ span {
     align-items: center;
     font-size: 0.85rem;
 }
-.foot-panel2{
+
+.foot-panel2 {
     background-color: #222f3d;
     color: white;
     height: 300px;
@@ -209,7 +231,7 @@ span {
     justify-content: space-evenly;
 }
 
-ul{
+ul {
     margin-top: 30px;
 }
 
@@ -221,7 +243,7 @@ ul a {
     margin-bottom: 10px;
 }
 
-.foot-panel3{
+.foot-panel3 {
     background-color: #222f3d;
     color: white;
     border-top: 2px solid white;
@@ -231,22 +253,61 @@ ul a {
     justify-content: center;
 }
 
-.logo{
+.logo {
     background-image: url("res/amazon_logo.png");
     background-size: cover;
     height: 50px;
     width: 100px;
 }
-.foot-panel4{
+
+.foot-panel4 {
     background-color: #0f1111;
     color: white;
     height: 80px;
     font-size: 0.7rem;
     text-align: center;
 }
-.pages{
+
+.pages {
     padding-top: 25px;
 }
-.copyright{
+
+.copyright {
     padding-top: 5px;
+}
+
+.login {
+    text-align: center;
+    margin: 2em;
+}
+
+.rhf-title {
+    color: rgb(88, 54, 9);
+    text-align: center;
+}
+
+.action-inner {
+    display: inline-block;
+    color: black;
+    font-size: 1.5em;
+    background-color: rgb(237, 155, 21);
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 3px;
+    padding: 1px 110px;
+    margin: 20px;
+    border-radius: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(133, 89, 6);
+    border-image: initial;
+}
+
+
+.panel {
+    height: 40px;
+    background-color: rgb(34, 47, 61);
+    display: flex;
+    color: gold;
+    align-items: center;
+    justify-content: space-evenly;
 }
